@@ -11,7 +11,7 @@ const reverse = (string) => {
 
 const calculator = {
   sum: (x1, x2) => x1 + x2,
-  subs: (x1, x2) => x1 - x2,
+  subt: (x1, x2) => x1 - x2,
   mult: (x1, x2) => x1 * x2,
   div: (x1, x2) => x1 / x2,
 };

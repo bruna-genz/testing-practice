@@ -14,8 +14,8 @@ test('Calculator sum 1 and 2 be equal to 3', () => {
   expect(calculator.sum(1, 2)).toBe(3);
 });
 
-test('Calculator subs 1 and 2 be equal to 3', () => {
-  expect(calculator.subs(1, 2)).toBe(-1);
+test('Calculator subt 1 and 2 be equal to 3', () => {
+  expect(calculator.subt(1, 2)).toBe(-1);
 });
 
 test('Calculator mult 1 and 2 be equal to 3', () => {
