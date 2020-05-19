@@ -11,7 +11,15 @@ const reverse = (string) => {
   }
 };
 
+const calculator = {
+  sum: (x1,x2) => {return x1+x2},
+  subs: (x1,x2) => {return x1-x2},
+  mult: (x1,x2) => {return x1*x2},
+  div: (x1,x2) => {return x1/x2}
+}
+
 module.exports = {
     capitalize,
     reverse,
+    calculator
 }
